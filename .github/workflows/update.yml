@@ -1,5 +1,7 @@
 name: update
 on:
+permissions:
+  contents: write
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
